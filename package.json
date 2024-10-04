@@ -1,0 +1,17 @@
+{
+  "name": "s3wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.664.0",
+    "@aws-sdk/lib-storage": "^3.664.0"
+  }
+}
