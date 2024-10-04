@@ -2,6 +2,7 @@ import { S3Client, GetObjectCommand, DeleteObjectCommand, ListObjectsCommand, Pu
 import { Upload } from "@aws-sdk/lib-storage";
 
 export const s3wrapper = {
+    version: 1,
     getClient: function() {
         return new S3Client({
             region: process.env.S3_REGION,
